@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!-- header -->
+      <header class="header">
+        <div class="company-name">
+            <span id="multi">MULTI</span><span id="shop">SHOP</span>
+        </div>
+        <div class="navbar">
+           <ul>
+            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+            <li><a href="shop-detail.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Shop</a></li>
+            <li><a href="pages.html"> <i class="fa fa-flag" aria-hidden="true"></i> Shop Detail</a></li>
+            <li><a href="checkout.html"> <i class="fa fa-cart-plus" aria-hidden="true"></i> Pages</a></li>
+            <li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a></li>
+           </ul>
+        </div>
+        <div class="search">
+            <div class="input-search">
+             <input type="text" name="search" id="search">
+             <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="cart-area">
+            <div class="heart">
+                <i class="fa fa-heart" aria-hidden="true"><sup>0</sup></i>
+            </div>
+            <div class="cart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"><sup>0</sup></i>
+            </div>
+        </div>
+    </header>
+       <!-- End-header -->
+
+
+       <!-- shop-detail -->
+        <div class="shop-detail">
+            <div class="shop-left">
+                <img src="img/product-2.jpg" alt="productimage">
+           </div>
+           <div class="shop-right">
+               <div class="shop-item">
+                   <h5>Product Name Goes Here</h5>
+                   <div class="shopstar">
+                    <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa-regular fa-star-half-stroke"></i><span>(99 reviews)</span>
+                   </div>
+                   <h6>$123</h6>
+                 
+                    <p>Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit clita ea. Sanc ipsum et, labore clita lorem magna duo dolor no sea Nonumy</p>
+                    <div class="sizes">
+                       <p>Sizes</p>
+                      <div class="sizelist">
+                       <input type="radio" name="size" id="extrasmall">
+                       <label for="extrasmall">XS</label>
+                      </div>
+                      <div class="sizelist">
+                       <input type="radio" name="size" id="small">
+                       <label for="small">S</label>
+                      </div>
+                      <div class="sizelist">
+                       <input type="radio" name="size" id="medium">
+                       <label for="medium">M</label>
+                      </div>
+                      <div class="sizelist">
+                       <input type="radio" name="size" id="large">
+                       <label for="large">L</label>
+                      </div>
+                      <div class="sizelist">
+                       <input type="radio" name="size" id="extralarge">
+                       <label for="extralarge">XL</label>
+                      </div>
+                    </div>
+                    <div class="color">
+                       <p>Color</p>
+                      <div class="colorlist">
+                       <input type="radio" name="color" id="extrasmall">
+                       <label for="extrasmall">Black</label>
+                      </div>
+                      <div class="colorlist">
+                       <input type="radio" name="color" id="small">
+                       <label for="small">White</label>
+                      </div>
+                      <div class="colorlist">
+                       <input type="radio" name="color" id="medium">
+                       <label for="medium">Blue</label>
+                      </div>
+                      <div class="colorlist">
+                       <input type="radio" name="color" id="large">
+                       <label for="large">Red</label>
+                      </div>
+                      <div class="colorlist">
+                       <input type="radio" name="color" id="extralarge">
+                       <label for="extralarge">Green</label>
+                      </div>
+                    </div>
+                    <div class="cartlist">
+                        <span>-</span><input type="text"  value="1"><span>+</span>
+                        <button><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart</button>
+                    </div>
+                 <div class="sharelist">
+                     <div>
+                        <span>Share on </span>
+                    </div>
+                     <div>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                     </div>
+                 </div>
+           </div> 
+          </div>
+        </div>
+       
+       <!-- shop-detail -->
+       
+       <!-- You May be also like -->
+         <div class="Maylike">
+            <h2>YOU MAY ALSO LIKE <span> ---------------------------------------------------------------------------------------------------------</span></h2>
+         </div>
+       <div class="feature">
+        <div class="feature-item">
+            <img src="img/product-5.jpg" alt="productdetail">
+            <h6>Product Name</h6>
+            <p>$123 <span>$150</span></p>
+             <div class="star">
+                <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><span>(99)</span>
+             </div>
+        </div>
+        <div class="feature-item">
+            <img src="img/product-6.jpg" alt="productdetail">
+            <h6>Product Name</h6>
+            <p>$123 <span>$150</span></p>
+             <div class="star">
+                <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa-regular fa-star-half-stroke"></i><span>(99)</span>
+             </div>
+        </div>
+        <div class="feature-item">
+            <img src="img/product-7.jpg" alt="productdetail">
+            <h6>Product Name</h6>
+            <p>$123 <span>$150</span></p>
+             <div class="star">
+                <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa-regular fa-star-half-stroke"></i><i class="fa-regular fa-star"></i><span>(99)</span>
+             </div>
+        </div>
+        <div class="feature-item">
+            <img src="img/product-8.jpg" alt="productdetail">
+            <h6>Product Name</h6>
+            <p>$123 <span>$150</span></p>
+             <div class="star">
+                <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><span>(99)</span>
+             </div>
+        </div>
+    </div>
+
+
+       <!-- You May be also like -->
+    
+     <!-- Footer -->
+     <footer>
+        <div class="footer">
+             <div class="contactfooter">
+                 <h1>GET IN TOUCH</h1>
+                <h3>No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor. Rebum tempor no vero est magna amet no</h3>
+             <div class="location">
+                 <h6><i class="fa fa-solid fa-envelope"></i> Email: demo@gmail.com
+                 </h6>
+                 <h6><i class="fa fa-phone"></i> Call : +01 1234567890</h6>
+                 <h6> <i class="fa fa-location-dot"></i> 123 Street, New York, USA</h6>
+             </div>
+           </div>
+          <div class="company">
+             <h2>QUICK SHOP </h2>
+             <a href="index.html">HOME</a>
+             <a href="shop-detail.html">Our Shop</a>
+             <a href="pages.html">Shop Detail</a>
+             <a href="checkout.html">Pages</a>
+             <a href="contact.html">CONTACT </a>
+         </div>
+         <div class="newsletter">
+             <h3>NEWSLETTER</h3>
+             <p>Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
+             <div class="input"><input type="text" name="search" placeholder="Your Email Address" id="search"><button id="signup">SIGN UP</button></div>
+             <h6>FOLLOW US</h6>
+             <div class="socialmedia">
+                 <i class="fa-brands fa-facebook-f"></i>
+                 <i class="fa-brands fa-instagram"></i>
+                 <i class="fa-brands fa-linkedin-in"></i>
+                 <i class="fa-brands fa-twitter"></i>
+             </div>
+         </div>
+        </div>
+        <hr style="color:white;" width="100%" height="1px">
+       <div class="footer-last">
+         <div class="copyright">
+           <h4> <span>© </span>Domain. All Rights Reserved. Designed by <span>HTML Codex</span></h4>
+         </div>
+         <div class="payment">
+             <img src="img/payments.png" alt="">
+         </div>
+       </div>
+     </footer>
+
+   <!--End- Footer -->
+
+       
